@@ -1,0 +1,112 @@
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:aliceblue;
+}
+
+body {
+    line-height: 30px;
+
+}
+
+.background-fade {
+    background-color: rgba(0, 140, 255, 0.125);
+    color: black;
+    text-shadow: 1px 3px 1px rgba(103, 102, 102, 0.5)
+}
+
+header, h2, label {
+    padding: 5px;
+    border: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input, input[type=submit]{
+    width: 50%;
+    padding: 5px;
+    border: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin: 10px;
+    transition: .75s;
+
+}
+
+input:hover, input[type=submit]:hover {
+    width: 50%;
+    padding: 5px;
+    border: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+th {border: 2px solid black;}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+
+
+ }
+
+td {
+    text-align: center;
+    padding: 10px;
+    transition: 2s;
+ }
+
+tr:nth-child(even) {background-color: grey;}
+
+#Red {
+    background-color: red;
+}
+
+#Yellow {
+    background-color: yellow;
+}
+
+#Blue {
+    background-color: blue;
+}
+
+#Rose:hover {
+    background-color:rgba(255, 0, 0, 0.62);
+}
+
+#Pastel:hover {
+    background-color: rgba(255, 255, 0, 0.506);
+}
+
+#Azure:hover {
+    background-color:aqua;
+}
+
+#Mahogany:hover {
+    background-color: maroon;
+    color: white;
+    transition: 2s;
+}
+
+#Gold:hover {
+    background-color: rgb(185, 157, 0);
+}
+
+#Midnight:hover {
+    background-color: midnightblue;
+    color: white;
+    transition: 2s;
+}
